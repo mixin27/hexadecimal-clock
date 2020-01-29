@@ -1,5 +1,5 @@
 # hexadecimal-clock
-Change color according to time.
+Change color according to time. [![Build Status](https://travis-ci.com/ZattWine/hexadecimal-clock.svg?branch=master)](https://travis-ci.com/ZattWine/hexadecimal-clock)
 
 ### Preview
 ![Preview](https://github.com/ZattWine/hexadecimal-clock/blob/master/images/hexadecimal-clock-preview.gif)
