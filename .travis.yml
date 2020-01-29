@@ -26,6 +26,8 @@ stages:
 
 jobs:
   include:
+    - stage: grant permission
+      script: chmod +x ./gradlew
     - stage: compile
       script: ./gradlew assemble
     - stage: test
