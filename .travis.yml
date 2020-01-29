@@ -26,12 +26,13 @@ stages:
 
 jobs:
   include:
-    - stage: grant permission
-      script: chmod +x gradlew
     - stage: build
       script: ./gradlew build
     - stage: test
       script: ./gradlew test
+
+before_install:
+ - chmod +x gradlew
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
